@@ -41,7 +41,7 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
-var requestURL = 'https://kaqurei.github.io/assignments/term-project/json/templedata.json';
+var requestURL = 'https://raw.githubusercontent.com/eddyog/temple_suites.io/master/json/temples.json';
 var request = new XMLHttpRequest();
 
 request.open('GET', requestURL);
