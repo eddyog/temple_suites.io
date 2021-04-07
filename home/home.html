@@ -8,15 +8,15 @@
     <meta name="description" content="Home of Temple Inn & Suites">
 
     <link rel="stylesheet" href="style/home_small.css">
-    <link rel="stylesheet" href="style/home_medium.css">
-    <link rel="stylesheet" href="style/home_large.css">
-    <script src="java/hom_java.js"></script>
+    <link rel="stylesheet" media="screen and (min-width: 600px)" href="style/home_medium.css">
+    <link rel="stylesheet" media="screen and (min-width: 800px)" href="style/home_large.css">
+
 </head>
 
 <body>
-    <picture>
-        <source srcset="images/abor-large-01.svg" media="(max-width: 600px)">
-        <img class="hero-img" src="images/abor-large-02.svg" alt="A peaceful bench in the Inn Gardens">
+    <picture class="banner">
+        <source srcset="images/banner.jpg" media="(max-width: 600px)">
+        <img class="banner" src="images/banner.jpg" alt="A peaceful bench in the Inn Gardens">
     </picture>
     <header>
         <h1>Temple Inn & Suites</h1>
@@ -26,15 +26,15 @@
         <a id="menu-link" onclick="hamburgerMenu()">&#9776; Menu</a>
         <ul class="menu">
             <li id="current-page"><a href="#">Home</a></li>
-            <li><a href="temples.html">Temples</a></li>
-            <li><a href="guest-portal.html">Guest Portal</a></li>
-            <li><a href="reservation.html">Book Reservation</a></li>
+            <li><a href="/temples/temples-main/temples-main.html">Temples</a></li>
+            <li><a href="/guest-portal/guest.html">Guest Portal</a></li>
+            <li><a href="/reservation/reservation.html">Book Reservation</a></li>
         </ul>
     </nav>
     <main class="fade">
         <section>
             <div class="welcome-wrap">
-                <img id="welcome-image" src="images/temple1.jpg" alt="A view of the Temple from the hotel front.">
+                <img id="welcome-image" src="images/hotel.jpg" alt="A view of the Temple from the hotel front.">
                 <div class="text-wrap">
                     <h2>Welcome to Temple Inn & Suites</h2>
                     <p>President Gordon B Hinkley said of Temples, “This is a place of light, a place of peace, a place of
@@ -67,12 +67,12 @@
             <div class="featured-wrap">
                 <picture id="featuredImage">
                     <source srcset="x.jpg" media="(max-width: 600px)">
-                    <img src="x" class="featured"
+                    <img class="temple" src="x" class="featured"
                         alt="If this image is displayed the featured JSON data failed to load.">
                 </picture>
                 <h3 id="featuredTitle">Failed script</h3>
                 <p id="featuredDescription">Failed script</p>
-                <form action="temples.html"><button>More Temples</button></form>
+                <form action="/temples/temples-main/temples-main.html"><button>More Temples</button></form>
             </div>
         </section>
 
@@ -85,36 +85,37 @@
             </div>
 
             <div class="mySlides fade">
-                <picture>
-                    <source srcset="images/family-history-small.jpg" media="(max-width: 600px)">
-                    <img src="images/family-history-large.jpg"
+                <picture class="spot">
+                    <source srcset="images/history.jpg" media="(max-width: 600px)">
+                    <img class="spot" src="images/history.jpg"
                         alt="A sister missionary helps woman to find geneology information in the computer lab">
                 </picture>
                 <p>Our Family History Research lab provides guests with computers, free wifi, and family history
                     consultants on site. Available as a special service for all guests.</p>
-                    <form action="guest-portal.html"><button>Learn More</button></form>
+                    <form action="/guest-portal/guest.html"><button>Learn More</button></form>
             </div>
 
             <div class="mySlides fade">
-                <picture>
-                    <source srcset="images/breakfast-small.jpg" media="(max-width: 600px)">
-                    <img src="images/breakfast-large.jpg" alt="A large parfait with fresh oats">
+                <picture class="spot">
+                    <source srcset="images/breakfast.jpg" media="(max-width: 600px)">
+                    <img class="spot" src="images/breakfast.jpg" alt="A traditionial breakfast from Guatemala">
                 </picture>
-                <p>Free breakfast services are included with every room and suite. We have a wide range of healthy
-                    breakfast options available, including gluten, dairy, and sugar free. Let your Temple Inn & Suites
+                <p> A traditional Free breakfast services are included with every room and suite. We have a wide range of healthy
+                    breakfast options available. Let your Temple Inn & Suites
                     representative know if you or anyone in your party have any dietary restrictions so that we can
                     accommodate you.</p>
-                    <form action="guest-portal.html"><button>Learn More</button></form>
+                    <form action="/guest-portal/guest.html"><button>Learn More</button></form>
             </div>
 
             <div class="mySlides fade">
-                <picture>
-                    <source srcset="images/change-service-small.jpg" media="(max-width: 600px)">
-                    <img src="images/change-service-large.jpg" alt="A line of fresh clean laundry">
+                <picture class="spot">
+                    <source srcset="images/pool.jpg" media="(max-width: 600px)">
+                    <img class="spot" src="images/pool.jpg" alt="A line of fresh clean laundry">
                 </picture>
-                <p>Temple Inn & Suites provides free of charge special changing rooms and wash services for guests who
-                    may have travelled a long distance and need to freshen up before entering the House of the Lord.</p>
-                    <form action="guest-portal.html"><button>Learn More</button></form>
+                <p>We also have an outdoor pool that we are sure you will enjoy. Guatemala has a tropical weather
+                    that is perfect. You will be able to enjoy your time in Temple Inn & suites with our amazing pool
+                </p>
+                    <form action="/guest-portal/guest.html"><button>Learn More</button></form>
             </div>
         </div>
         <br>
@@ -129,20 +130,20 @@
                 <h2>Testimonials</h2>
                 <div class="testimonials">
                     <div class="comment-wrap">
-                        <img src="images/senmis.jpg" alt="Senior missionary couple serving near a Temple.">
+                        <img src="images/president.jpg" alt="Senior missionary couple serving near a Temple.">
                         <p>&ldquo;Temple Inn & Suites gave us the freedom to focus on the Lord's work.&rdquo;</p>
-                        <p class="name-wrap">- The Wilsons</p>
+                        <p class="name-wrap">- Family Galvez</p>
                     </div>
                     <div class="comment-wrap third-comment">
-                        <img src="images/family.jpg" alt="Parents and two children pose for a family photo.">
+                        <img src="images/padres.jpg" alt="Parents and two children pose for a family photo.">
                         <p>&ldquo;Exceptional service. Will come again!&rdquo;</p>
-                        <p class="name-wrap">- The Adams Family</p>
+                        <p class="name-wrap">- The Gonzalez Family</p>
                     </div>
                     <div class="comment-wrap">
-                        <img src="images/johndoe.jpg" alt="The groom in a tuxedo on the beach.">
+                        <img src="images/kevin-vanessa.jpg" alt="The groom in a tuxedo on the beach.">
                         <p>&ldquo;The perfect solution for our friends and family travelling to participate in our
                             wedding.&rdquo;</p>
-                        <p class="name-wrap">- John Doe</p>
+                        <p class="name-wrap">- Kevin and Vanessa Gonzalez</p>
                     </div>
                 </div>
             </div>
@@ -154,8 +155,8 @@
         &copy;2019 Temple Inn & Suites | <a href="contact.html">Contact Us</a> | <a href="policies.html">Guest
             Policies</a>
         <p class="sub-footer"><a href="attributions.html">Attributions</a> | <a
-                href="https://kaqurei.github.io/">Destyni Shirley</a></p>
-        <script src="js/main-script.js"></script>
+                href="https://eddyog.github.io/">Eddy Gonzalez</a></p>
+        <script src="java/home_java.js"></script>
     </footer>
 </body>
 

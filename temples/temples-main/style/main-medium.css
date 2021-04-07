@@ -8,9 +8,6 @@ body {
     text-align: right;
     margin-right: 1rem;
   }
-
-
-  
   
   #welcome-image {
     float: left;
@@ -71,7 +68,7 @@ body {
   
   nav {
     color: #FFF;
-    background-color:#C1C1C3;
+    background-color: #D8D0C1;
     font-size: 1.5em;
     line-height: 3rem;
     display: flex;
@@ -88,7 +85,7 @@ body {
     list-style-type: none;
     margin: 0;
     overflow: hidden;
-    background-color: #C1C1C3;
+    background-color: #D8D0C1;
     position: -webkit-sticky;
     /* Safari */
     position: sticky;
@@ -118,7 +115,7 @@ body {
   }
   
   #current-page a:hover {
-    color: #F4CDD0;
+    color: #FFF;
   }
   
   .menu {
@@ -185,8 +182,7 @@ body {
   }
   
   section a:hover, div a:hover {
-    color: black;
-    background-color: #F4CDD0;
+    color: #FFAD05;
   }
   
   #item1 {

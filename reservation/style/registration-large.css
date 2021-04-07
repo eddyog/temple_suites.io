@@ -19,9 +19,7 @@ body {
   .inner-wrap {
     max-width: 800px;
   }
-
-
-
+  
   .two-column {
     display: grid;
     grid-template-columns: 5fr 5fr;
@@ -30,7 +28,8 @@ body {
    }
   
   section a:hover, .mySlides a:hover {
-    color: #FFAD05;
+    color: black;
+    background-color: #F4CDD0;
   }
   
   .parallax {
@@ -45,16 +44,16 @@ body {
   }
   
   .parallax1 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/Quetzaltenango-Hallway.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/hotel-large.jpg");
   }
   
   
   .parallax2 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/Quetzaltenango-Hallway.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/hotel-front-large.jpg");
   }
   
   .parallax3 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/Quetzaltenango-Hallway.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/temple-large.jpg");
   }
   
   

@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0px auto;
     max-width: none;
@@ -19,19 +21,13 @@ body {
   .inner-wrap {
     max-width: 800px;
   }
-
-
-
+  
   .two-column {
     display: grid;
     grid-template-columns: 5fr 5fr;
     grid-gap: 25px;
     max-width: 900px;
    }
-  
-  section a:hover, .mySlides a:hover {
-    color: #FFAD05;
-  }
   
   .parallax {
     position: initial;
@@ -45,16 +41,16 @@ body {
   }
   
   .parallax1 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/Quetzaltenango-Hallway.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/hotel-large.jpg");
   }
   
   
   .parallax2 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/Quetzaltenango-Hallway.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/hotel-front-large.jpg");
   }
   
   .parallax3 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/Quetzaltenango-Hallway.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("/temples/temples-main/images/costa-rica-background.jpg");
   }
   
   
@@ -66,12 +62,6 @@ body {
     grid-row-end: 2;
   }
   
-  button:hover {
-    color: black;
-    background-color: #F4CDD0;
-    padding: 10px;
-    box-shadow: 5px 10px 8px #012A36;
-  }
   
   .img-wrap {
     display: none;
@@ -100,4 +90,26 @@ body {
   
   footer a:hover {
     text-decoration: underline;
+  }
+
+
+  /************************************ IMAGES SIZE LARGE  ************************************/
+
+  img.xela, img.costa-rica, img.panama, img.guatemala{
+    width: 800px;
+    height: 500px;
+  }
+  
+ /************************************ HOVER COLORS  ************************************/
+
+  section a:hover, .mySlides a:hover {
+    color: black;
+    background-color: #F4CDD0;
+  }
+
+  button:hover {
+    color: black;
+    background-color: #F4CDD0;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #012A36;
   }

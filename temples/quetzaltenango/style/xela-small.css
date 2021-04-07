@@ -11,34 +11,19 @@
     text-align: center;
  }
  
-
- /********************************** images ********************************* */
-
-
- img.hero-image{
-   width: 100%;
-   height: 1000px;
+   img.banner{
+    width: 100%;
+    height: 250px;
  }
 
- img.banner{
-    width: 100%;
-    height: 300px;
+ ul.menu li{
+    background-color: #C1C1C3;
+    border: 1px solid black;
  }
  
- picture.banner{
-    background-color: black;
-    overflow: hidden;
-    width: 100%;
+ nav.nav{
+   background-color: #C1C1C3;
  }
- 
- #welcome-image{
-   width: 300px;
-   height: 400px;
- }
-
-
-
- /**********************************  ********************************* */
 
 
  a {
@@ -140,7 +125,7 @@
  }
  
  nav {
-    background-color: #DFD3CE;
+    background-color: #D8D0C1;
     margin-bottom: 0px;
     padding: 15px;
  }
@@ -154,7 +139,6 @@
  
  nav li {
     padding: 10px;
-    border: 1px solid black;
  }
  
  #current-page a {
@@ -206,15 +190,14 @@
   text-align: center;
  }
  .hero-image {
-    background-color: #DFD3CE;
+    background-color: #D8D0C1;
+    width: 100%;
     margin-bottom: 10px;
  }
  
  .hero-image img {
     width: 100%;
     margin: 0 auto;
-    max-width: 100%;
-    max-height: 100%;
  }
  
  .img-wrap {
@@ -223,13 +206,13 @@
  }
  
  .outer-wrap {
-    background-color: #CBCBCD;
+    background-color: #CBB8A9;
     width: 100%;
  }
  
  .inner-wrap {
     color: #012A36;
-    background-color: #CBCBCD;
+    background-color: #D8D0C1;
     max-width: 400px;
     margin: 0 auto;
     padding: 25px;
@@ -271,16 +254,16 @@
   }
  
   .parallax1 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/Quetzaltenango-Hallway.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/hotel-small.jpg");
   }
   
   
   .parallax2 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/Quetzaltenango-Hallway.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/hotel-front-small.jpg");
   }
  
   .parallax3 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/Quetzaltenango-Hallway.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/temple-small.jpg");
   }
  
   .spotlight {
@@ -347,7 +330,7 @@
   }
   
   .prev:hover, .next:hover {
-    background-color: #C1C1C3;
+    background-color: rgba(203, 184, 169, 8);
   }
   
  .dotbox {
@@ -398,28 +381,12 @@
   }
   
   /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 300px) {
   
     .prev,
     .next,
     .text {
       font-size: 11px
-    }
-   
-   img.spot {
-      background-color: blue;
-       width: 300px;
-       height: 200px;
-    }
-
-    img.temple{
-       width: 275px;
-    }
-
-    picture.spot{
-      background-color: blue;
-      width: 275px;
-      height: 200px;
     }
   }
   
@@ -533,7 +500,7 @@
  
   .temple-page-bubble {
     max-width: 250px;
-    background-color: #D8D0C1;
+    background-color: #DFD3CE;
     padding: 25px;
     margin: 25px auto;
     border-radius: 8px;
@@ -568,7 +535,7 @@
  #item4 {
     display: block;
     max-width: 900px;
-    background-color: #D8D0C1;
+    background-color: #DFD3CE;
     margin: 0 auto;
     padding: 25px;
     font-size: 1rem;
@@ -584,17 +551,13 @@
  }
  
  #item4 ul {
-    background-color: #CBB8A9;
+    background-color: #C1C1C3;
     color: #012A36;
     list-style-type: none;
     padding: 25px;
     max-width: 600px;
     margin: 0 auto;
  }
-
- /********************************** FOOTER ********************************* */
-
-
  
  footer {
     background-color: #C1C1C3;
